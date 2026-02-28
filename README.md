@@ -1,3 +1,5 @@
+# VibeWeather
+
 🎵 Mood Weather: Gökyüzünün Ritmini Yakala! ☁️
 Mood Weather, sadece hava durumunu söylemekle kalmayan, o anki atmosfere ve ruh haline en uygun müziği senin için seçen akıllı bir web uygulamasıdır.
 
@@ -47,7 +49,3 @@ index.html dosyasını tarayıcınızda açın ve müziğin tadını çıkarın!
 
 
 ![d9a3576a-72c8-46c4-8937-f0f180ed38c5](https://github.com/user-attachments/assets/f721bde8-9e5d-4bdc-a9c4-c0ff00e3fd31)
-
-
-
-# VibeWeather
