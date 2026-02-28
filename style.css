@@ -1,0 +1,162 @@
+:root {
+    --bg-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-color: #2d3436;
+    --accent-color: #6c5ce7;
+    --card-bg: rgba(255, 255, 255, 0.9);
+}
+
+/* Hava Durumu Moodları */
+body.clear-mood {
+    --bg-color: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    --accent-color: #e67e22;
+}
+
+body.clouds-mood {
+    --bg-color: linear-gradient(to top, #bdc3c7 0%, #2c3e50 100%);
+    --accent-color: #7f8c8d;
+}
+
+body.rain-mood {
+    --bg-color: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    --accent-color: #3498db;
+}
+
+body.snow-mood {
+    --bg-color: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    --accent-color: #95a5a6;
+}
+
+body {
+    background: var(--bg-color);
+    background-attachment: fixed;
+    color: var(--text-color);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: all 1s ease;
+}
+
+.container {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.search-box input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 60%;
+    outline: none;
+}
+
+.search-box button {
+    padding: 12px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#weatherDisplay {
+    margin-top: 25px;
+    animation: fadeIn 1s ease;
+}
+
+.hidden { display: none; }
+
+.music-box {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px dashed var(--accent-color);
+}
+
+.music-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.container {
+    /* Mevcut kodlara ek olarak */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
+/* Hava durumu ikonu için stil */
+.weather-icon {
+    width: 100px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.1));
+}
+:root {
+    --bg-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-color: #2d3436;
+    --accent-color: #6c5ce7;
+    /* Daha güçlü Glassmorphism (Cam) efekti için kart arka planı */
+    --card-bg: rgba(255, 255, 255, 0.6); 
+}
+
+/* tsParticles Container */
+#tsparticles {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* İçeriğin arkasında kalması için */
+}
+
+/* Mevcut kodlara eklemeler ve güncellemeler */
+body {
+    background: var(--bg-color);
+    background-size: cover; /* Arka planın tam kaplaması için */
+    transition: background 1s ease; /* Sadece background değişimi yumuşak olsun */
+}
+
+.container {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 450px; /* Biraz daha genişlettik */
+    text-align: center;
+    backdrop-filter: blur(15px); /* Daha güçlü bulanıklık */
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Parlak kenarlık */
+    z-index: 1; /* Efektin önünde kalması için */
+}
+
+/* Konum Butonu Stili */
+#geoBtn {
+    padding: 12px;
+    background: #e0e0e0;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+#geoBtn:hover {
+    background: #ccc;
+}
