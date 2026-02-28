@@ -45,8 +45,8 @@ index.html dosyasını tarayıcınızda açın ve müziğin tadını çıkarın!
 ![730507ed-b496-4c8d-96c6-ce4f8ac6ecc1](https://github.com/user-attachments/assets/a49f241b-efde-4b69-8f71-3cd6fc1dfe08)
 
 
-![730507ed-b496-4c8d-96c6-ce4f8ac6ecc1](https://github.com/user-attachments/assets/cf4e9d7c-b97a-4b9c-adef-c7666bea7525)
 
+![d9a3576a-72c8-46c4-8937-f0f180ed38c5](https://github.com/user-attachments/assets/f721bde8-9e5d-4bdc-a9c4-c0ff00e3fd31)
 
 
 
