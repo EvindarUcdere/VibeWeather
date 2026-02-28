@@ -41,9 +41,13 @@ const apiKey = 'SİZİN_API_ANAHTARINIZ';
 index.html dosyasını tarayıcınızda açın ve müziğin tadını çıkarın!
 
 📸 Ekran Görüntüleri
-![d9a3576a-72c8-46c4-8937-f0f180ed38c5](https://github.com/user-attachments/assets/0b272dcf-83f3-4017-ac79-63f2a05e1f35)
 
-![c66f5e56-2215-4691-88e7-6e921600de4f](https://github.com/user-attachments/assets/d34b7c8c-664b-4dd0-8010-9014db9158da)
+![730507ed-b496-4c8d-96c6-ce4f8ac6ecc1](https://github.com/user-attachments/assets/a49f241b-efde-4b69-8f71-3cd6fc1dfe08)
+
+
+![730507ed-b496-4c8d-96c6-ce4f8ac6ecc1](https://github.com/user-attachments/assets/cf4e9d7c-b97a-4b9c-adef-c7666bea7525)
+
+
 
 
 # VibeWeather
